@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="HoangLan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-03-06 10:40:10 CH"/>
+        <attribute name="created" value="SG9hbmdMYW47SExDMDYwOUpFRTsyMDE5LTAzLTA2OzA3OjQ2OjMxIENIOzI2Nzg="/>
+        <attribute name="edited" value="SG9hbmdMYW47SExDMDYwOUpFRTsyMDE5LTAzLTA2OzEwOjQwOjEwIENIOzIyOzI4MjI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;gi&#7843;i ph&#432;&#417;ng tr&#236;nh b&#7853;c nh&#7845;t&quot;" newline="True"/>
+            <declare name="x" type="Real" array="False" size=""/>
+            <declare name="a" type="Real" array="False" size=""/>
+            <output expression="&quot;nh&#7853;p a = &quot;" newline="False"/>
+            <input variable="a"/>
+            <declare name="b" type="Real" array="False" size=""/>
+            <output expression="&quot;nh&#7853;p b = &quot;" newline="False"/>
+            <input variable="b"/>
+            <if expression="a = 0">
+                <then>
+                    <if expression="b = 0">
+                        <then>
+                            <output expression="&quot;ph&#432;&#417;ng tr&#236;nh c&#243; v&#244; s&#7889; nghi&#7879;m&quot;" newline="False"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;ph&#432;&#417;ng tr&#236;nh v&#244; nghi&#7879;m&quot;" newline="False"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <assign variable="x" expression="-b/a"/>
+                    <output expression="&quot;ph&#432;&#417;ng tr&#236;nh c&#243; nghi&#7879;m x = &quot;&amp; x" newline="False"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
