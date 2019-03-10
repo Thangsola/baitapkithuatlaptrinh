@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Administrator"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-03-10 09:56:07 CH"/>
+        <attribute name="created" value="QWRtaW5pc3RyYXRvcjs5TFRFQ1RYNjhTWERYN0M7MjAxOS0wMy0xMDswOTowOTozNyBQTTszNzQ5"/>
+        <attribute name="edited" value="QWRtaW5pc3RyYXRvcjs5TFRFQ1RYNjhTWERYN0M7MjAxOS0wMy0xMDswOToyMTo0NyBQTTsxOzM4NTI="/>
+        <attribute name="edited" value="SG9hbmdMYW47SExDMDYwOUpFRTsyMDE5LTAzLTEwOzA5OjU2OjA3IENIOzIwOzI4MzY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text=""/>
+            <declare name="n1" type="Integer" array="False" size=""/>
+            <declare name="n2" type="Integer" array="False" size=""/>
+            <declare name="n3" type="Integer" array="False" size=""/>
+            <declare name="n" type="Integer" array="False" size=""/>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <assign variable="n1" expression="1"/>
+            <assign variable="n2" expression="1"/>
+            <output expression="&quot;nh&#7853;p s&#7889; ph&#7847;n t&#7917; c&#7847;n in ra: &quot;" newline="True"/>
+            <input variable="n"/>
+            <output expression="&quot;&quot;&amp;n1" newline="True"/>
+            <output expression="&quot;&quot;&amp;n2" newline="True"/>
+            <for variable="i" start="2" end="n-1" direction="inc" step="1">
+                <assign variable="n3" expression="n1+n2"/>
+                <output expression="n3" newline="True"/>
+                <assign variable="n1" expression="n2"/>
+                <assign variable="n2" expression="n3"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>
